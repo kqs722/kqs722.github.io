@@ -310,7 +310,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '0ebb3519a0c4044c4571b2408a52e7ed8009564205ca65a69fd43f232352f256';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('输密码，密码我生日，月份加日期总共三个数字，如果不是，那就别看了（笑）')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
